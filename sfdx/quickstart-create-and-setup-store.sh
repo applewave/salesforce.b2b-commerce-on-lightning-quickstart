@@ -28,7 +28,7 @@ then
 else
     storename=$1
 fi
-sfdx force:community:create --name "$storename" --templatename "B2B Commerce" --urlpathprefix "$storename" --description "Store $storename created by Quick Start script."
+sfdx force:community:create --name "$storename" -t "B2B Commerce" -p "$storename" --description "Store $storename created by Quick Start script."
 echo ""
 
 storeId=""
