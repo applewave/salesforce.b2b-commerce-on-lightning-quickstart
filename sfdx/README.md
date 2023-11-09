@@ -45,8 +45,10 @@ sfdx force:auth:web:login -d
 This will open a new browser window where you have to enter the credentials of your Dev Hub. The -d option will set that Dev Hub as your default one. Once you're logged in, the Dev Hub is authorized and you can close the browser. The Dev Hub will manage your future scratch orgs.
 
 Make sure that your current directory is sfdx. Run the following command to create a scratch org and specify the username for the administrator in an email format:
-```
 sfdx force:org:create -f config/project-scratch-def.json username=<YourScratchOrgUsernameInEmailFormat> -s -d <DurationInDays>
+
+```
+sf org create scratch -f config/project-scratch-def.json -a b2bcommerce --duration-days 30
 ```
 This command may take a while to run (minutes, but not more than 5-10 minutes) and you won't see output while it's running. A password for your user is auto-generated but it's hidden.
 
