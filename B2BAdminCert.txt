@@ -1,0 +1,71 @@
+Salesforce B2B Commerce App and Basics
+
+Experience cloud and commerce
+- Basics of B2B Experience cloud
+- License required for b2b users
+1. Community portal license profiles
+2. setup path/visibilty
+
+Optimize page layouts
+- Add related lists to standard objects.
+- Enable the field required the for order
+1. Read only Sales store
+2. related lists showing in accounts
+
+Enable Order preferences
+- Settings/Set up
+1. Enable orders features
+2. Enhanced commerce order
+
+Data Translation setup
+- Add currency and language settings
+1. Setup > Company Information
+2. Store > Administration
+
+OWD - B2B
+- Org-wide default to access for storefront users.
+1. Objects - catalogs, Electronic media grp, order delivery method
+2. Permissions - public Read only.
+
+Permission sets for the users.
+- Add permission sets to users.
+- Accessibility objects based on permission sets.
+1. Buyer - B2B Commerce User
+2. Buyer manager - B2B commerce Super User
+3. Account switcher
+
+
+Storefront Deployment and Content Integration
+Store Creation
+- Creating a new store
+- Add existing template with store
+1. Available template for B2B : customer portal, Starter
+2. Limits
+
+Catalog and Categories
+- Way to create a catalog
+- Hierarchy of subcategories
+- Priorities the categories
+- Limitations and considerations
+1. Limits on stores and catalog
+
+Load Sample data
+- Consideration for bulk load
+- Way to import sample data
+- Configurations to prepare sample data
+1. Limitations on sample data
+
+Account, Contact & Buyer Groups
+- Consideration for a Buyer account
+- Sharing buyer account with multiplie users/ external users
+1. Login in using contact records
+2. Collective account as a buyer group
+
+Search Index
+- Consideration before taking the search index.
+- Time limit for the store.
+- Type for the search index.
+- Consideration for search filter in B2B store.
+- Field available in the search filter
+1. Error
+2. Datatype
