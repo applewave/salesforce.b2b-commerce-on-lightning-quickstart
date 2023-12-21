@@ -70,3 +70,37 @@ Search Index
 - Field available in the search filter
 1. Error
 2. Datatype
+
+Storefront Deployment and Content Integration contn..
+Customize checkout Template
+- Configurations on checkout flow
+- Tasks carry by checkout flow
+- Different sub-flow on checkout
+1. Checkout Time to Live on webstore
+2. Checkout Validate Date on webstore
+
+Store Integrations and Services
+- Way to set up the integration on a Storefront
+- Payment gateway
+1. NamedCredentials
+
+Product Organization, Storefront Management & Advanced
+- Manage Product for the store.
+- Pricing Strategy and priories for Price Books
+- External Account Management for the buyers
+- Enable account sharing and assign permission sets.
+- Allow Buyers to Buy for and manage other Accounts With Account Switcher
+- Customizable User Profile Menu in Experience Builder
+- Search Engine Optimization
+- Create and Restriction an Email alert for the Store
+- B2B commerce release updates.
+
+Key Resource to follow
+- Salesforce B2B Commerce Basics
+- Administrator Salesforce B2B Commerce on Lightning Experience
+- B2B Integration : https://developer.salesforce.com/docs/atlas.en-us.b2b_b2c_comm_dev.meta/b2b_b2c_comm_dev/b2b_b2c_comm_integration_architecture.htm
+- B2B Checkout Flows : https://developer.salesforce.com/docs/atlas.en-us.b2b_b2c_comm_setup_checkout_flow.htm
+
+Key Resource to follow Contn...
+- Winter'22 release notes : http://help.salesforce.com/s/articleView?id=release-notes.rn_b2b_commerce_lex_intro.htm&We&release=234&type=5
+
